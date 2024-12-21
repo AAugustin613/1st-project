@@ -1,0 +1,148 @@
+Page Navigation
+
+
+need to create a folder
+home page file
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Navigation</title>
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<header>
+<h1>Welcome to my portfolio!</h1>
+<p>Check out all my cool projects!</p>
+</header>
+</body>
+</html>
+
+need to create a new file under index.html.
+Call it About.html
+and Contact.html
+
+
+
+
+About.html folder/file.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Navigation</title>
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<header>
+<h1>About</h1>
+<p>So many cool things to know about me!</p>
+</header>
+</body>
+</html>
+
+
+Contact.html file/folder
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Navigation</title>
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<header>
+<h1>Contact</h1>
+<p>Contact me for any questions on cool things!</p>
+</header>
+</body>
+</html>
+
+that's the basics of HTML
+
+
+
+how to jump from different sections on an HTML page
+
+let's edit the index.html section. 
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Navigation</title>
+
+<style>
+section{
+height: 500px;
+background-color: lightblue;
+color: #333;
+
+</style>
+
+</head>
+<body>
+<nav id:"toTop">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<header>
+<h1>Welcome to my portfolio!</h1>
+<p>Check out all my cool projects!</p>
+<a hreef="sectionOne">Section 1</a>
+<a hreef="sectionTwo">Section 2</a>
+<a hreef="sectionThree">Section 3</a>
+<a hreef="sectionFour">Section 4</a>
+</header>
+
+
+<section id="sectionOne">
+<h2>Section 1</h2>
+<p>Really cool stuff!</p>
+<a href="#toTop"Back to top</a>
+</section>
+
+<section id="sectionTwo">
+<h2>Section 2</h2>
+<p>Really cool stuff!</p>
+<a href="#toTop"Back to top</a>
+</section>
+
+<section id="sectionThree">
+<h2>Section 3</h2>
+<p>Really cool stuff!</p>
+<a href="#toTop"Back to top</a>
+</section>
+
+<section id="sectionFour">
+<h2>Section 4</h2>
+<p>Really cool stuff!</p>
+<a href="#sectionTwo"Back to Section</a>
+</section>
+
+
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+<form>
+<input type="text">
+<input type="number">
+<input type="checkbox">
+<input type="radio">
+<input type="submit">
+<input type="button" value="Click Me">
+</form>
+
+
+Form> 
+<label for="FirstName">FirstName:</label><br>
+<input id="firstName" name="fistName" type="text"><br>
+<label for="">LastName">Last Name:</label><br>
+<input id="lastName" name="lastName"type="text"><br><br>
+
+1.
+<label for="email"</label><br>
+<input type="email"><br><br>
+
+2.
+<label for="type">Input Type</label><br>
+<input type="color"><br><br>
+3.
+<input type="month"><br><br>
+4.
+<input type="date"><br><br>
+5.
+<input type="week"><br><br>
+6.
+<input type="password"><br><br>
+7.
+<input type="range"><br><br>
+8.
+<input type="search"><br><br>
+9.
+<input type="file"><br><br>
+
+
+<input name="gender" id="male" type="radio">
+<label for="male">male</label><br>
+
+<input name="gender" id="female"type="radio">
+<label for="female">Female</label><br>
+
+<input  name="gender" id="other"type="radio">
+<label>Other</lable><br>
+
+<br><br><br>
+
+<h3>Hobbies</h3>
+
+
+<input  name="gender" id="other"type="checkbox">
+<label>Other</lable><br>
+
+<input  name="gender" id="other"type="checkbox">
+<label>Other</lable><br>
+
+<input  name="gender" id="other"type="checkbox">
+<label>Other</lable><br>
+
+
+
+<input  name="skateboarding" id="skateboarding"type="checkbox" value="skateboarding">
+<label for="skateboarding">skateboarding</lable><br>
+
+input  name="hunting" id="hunting"type="checkbox" value="hunting">
+<label for="hunting">hunting</lable><br>
+
+input  name="skydiving" id="skydiving"type="checkbox" value="skydiving">
+<label for="skydiving">skydiving</lable><br>>
+
+<br><br>
+
+
+
+<labe for="attributes">Input Attributes</label><br><br>
+
+<input id="attributes" type="text" value="sample data" readyonly>
+<input id="attributes" type="text" value="sample data" disable>
+<input id="attributes" type="text" value="sample data" size="8">
+<input id="attributes" type="text" value="sample data" maxlenght="15">
+
+<input 
+id="attributes"
+type="text" 
+value="sample data"
+size="30" 
+maxlength="15"
+	min="5"
+	max="10"
+>
+
+<input 
+id="attributes"
+type="number" 
+value="5"
+size="30" 
+maxlength="15"
+	min="5"
+	max="10"
+>
+
+<input 
+id="attributes"
+type="file" 
+value="5"
+size="30" 
+maxlength="15"
+	min="5"
+	max="10"
+	multiple
+>
+
+
+<input 
+id="attributes"
+type="text" 
+value=""
+size="30" 
+maxlength="15"
+min="5"
+max="10"
+multiple
+placeholder="First name"
+required
+>
+
+<input required type="text">
+
+
+<input 
+id="attributes"
+type="number" 
+value=""
+size="30" 
+maxlength="15"
+min="5"
+max="100"
+multiple
+placeholder="First name"
+required
+step="5"
+
+<input 
+id="attributes"
+type="text" 
+value=""
+size="30" 
+maxlength="15"
+min="5"
+max="10"
+multiple
+placeholder="First name"
+step="5"
+autofocus
+autocomplete="on"(<form autocomplete="on" action=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<label for="weaponClass">Call of Duty Weapon class</label><br>
+<select id="weaponClass" name="weaponClass" size="3">
+<option value="Sniper">Sniper</option>
+<option value="Assualt" selected>Assualt</option>
+<option value="SMG">SMG</option>
+<option value="LMG">LMG</option>
+<option value="Shotgun">Shotgun</option>
+
+</section>
+
+<br><br>
+<label for="country">County</label><br>
+input list="Country" name="country">
+<datalist id="country">
+<option value="Canada">Canada</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="American Samoa">American Samoa</option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Anguilla">Anguilla</option>
+<option value="Antarctica">Antarctica</option>
+<option value="Antigua">Antigua</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia">Armenia</option>
+<option value="Aruba">Aruba</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijani">Azerbaijani</option>
+<option value="Bahamas">Bahamas</option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Netherlands">Belgium</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bermuda">Bermuda</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia">Bolivia</option>
+<option value="Bosnia-Hercegovina">Bosnia-Hercegovina</option>
+<option value="Botswana">Botswana</option>
+<option value="Bouvet Island">Bouvet Island</option>
+<option value="Brazil">Brazil</option>
+<option value="British IOT">British IOT</option>
+<option value="Brunei Darussalam">Brunei Darussalam</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina Faso">Burkina Faso</option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Cameroon">Cameroon</option>
+<option value="Cape Verde">Cape Verde</option>
+<option value="Cayman Islands">Cayman Islands</option>
+<option value="Central African Rep">Central African Rep</option>
+<option value="Chad">Chad</option>
+<option value="Chile">Chile</option>
+<option value="China">China</option>
+<option value="Christmas Island">Christmas Island</option>
+<option value="Cocos Islands">Cocos Islands</option>
+</datalist>
+
+<br><br><br>
+
+<label for="comments">Comments</label><br>
+<textarea rows="8" cols="40">
+This is some starter text
+</textarea>
+
+
+<input type="submit">
+
+</form>
+
+
+
+<form action="/action-page.php">
+<form target="_blank">
+<form target="_self">
+<form target="_parent">
+<form target="_top">
+
+method="get">
+
+
+
+Form>
+
+
+
